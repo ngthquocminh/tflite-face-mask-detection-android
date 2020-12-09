@@ -1,21 +1,11 @@
-package com.example.aps1
+package com.example.facemaskdetection
 
-import android.content.ContentUris
-import android.content.Intent
 import android.graphics.*
-import android.graphics.Paint.Align
-import android.graphics.drawable.BitmapDrawable
-import android.os.Build
 import android.os.Bundle
-import android.provider.MediaStore
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.graphics.createBitmap
-import com.esafirm.imagepicker.features.ImagePicker
-import com.esafirm.imagepicker.model.Image
-import com.example.facemaskdetection.Box
-import com.example.facemaskdetection.OverlayView
+import com.example.aps1.R
 import com.google.android.gms.vision.Frame
 import com.google.android.gms.vision.face.FaceDetector
 import kotlinx.android.synthetic.main.activity_main.*
@@ -29,8 +19,6 @@ import org.tensorflow.lite.support.image.ops.ResizeWithCropOrPadOp
 import org.tensorflow.lite.support.label.TensorLabel
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
 import java.io.ByteArrayOutputStream
-import java.lang.Float.min
-import kotlin.math.ceil
 
 
 class MainActivity : AppCompatActivity() {
