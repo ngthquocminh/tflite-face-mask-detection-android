@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raw</folder>
+	<filename>ngo-thi-nhiem-3281-1600951159_r_460x0.jpg</filename>
+	<path>D:/Minh/proj_ar/img/raw/ngo-thi-nhiem-3281-1600951159_r_460x0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>920</width>
+		<height>612</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>streetname</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>311</xmin>
+			<ymin>262</ymin>
+			<xmax>673</xmax>
+			<ymax>481</ymax>
+		</bndbox>
+	</object>
+</annotation>
